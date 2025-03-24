@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import "/src/Components/investment.css";
+import "/src/Components/Investment.css";
 function InvestmentBody() {
   return (
     <>
