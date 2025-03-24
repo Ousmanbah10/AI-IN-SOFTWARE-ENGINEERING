@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   useEffect(() => {
@@ -14,34 +15,34 @@ function Footer() {
       <div className="footer-container">
         <ul className="footer-links">
           <li>
-            <a href="#about" className="footer-link">
+            <Link to="/" className="footer-link">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="footer-link">
+            <Link to="/Software" className="footer-link">
               Software Engineering
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="footer-link">
+            <Link to="/Employment" className="footer-link">
               Employment & Job Security
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="footer-link">
+            <Link to="/Education" className="footer-link">
               CS Edu and Skills Dev
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="footer-link">
+            <Link to="/Investment" className="footer-link">
               Monetary Investment
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="#" className="footer-link">
+            <Link to="/References" className="footer-link">
               References
-            </a>
+            </Link>
           </li>
         </ul>
 

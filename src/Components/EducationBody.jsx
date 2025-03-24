@@ -1,42 +1,43 @@
 import { Link } from "react-router-dom";
+import "/src/Components/education.css";
 function EducationBody() {
   return (
     <>
       <div className="home-container">
         <section className="section services" id="services">
           <div className="ai-headlinee">
-            <p>AI’s Impact on Employment and Job Security</p>
+            <p>
+              AI’s Influence on Computer Science Education and Skills
+              Development
+            </p>
           </div>
           <div className="section-title">
             <h2>
-              Is AI Leading to Job Losses
-              <span> in the Tech Industry?</span>
+              How Is AI Reshaping
+              <span> Computer Science Education?</span>
             </h2>
           </div>
           <article className="about-info">
             <p>
-              The increasing adoption of AI in the workforce has sparked debates
-              about whether automation is causing job losses or simply reshaping
-              employment opportunities. According to Belle Lin in The Wall
-              Street Journal, the unemployment rate in the IT sector has risen
-              from 3.9% to 5.7% in a short period, with AI automating many
-              routine tasks. As she explains,
+              Artificial Intelligence is transforming the way computer science
+              is taught, with universities adapting curricula to incorporate AI
+              literacy. Esther Shein highlights how institutions are integrating
+              AI courses to prepare students for an AI-driven workforce, stating
+              that
               <a
-                href="https://www.wsj.com/articles/it-unemployment-rises-to-5-7-as-ai-hits-tech-jobs-7726bb1b"
+                href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source=chatgpt.com"
                 target="_blank"
                 https
                 rel="noopener noreferrer"
               >
-                "Major companies like Meta and Workday have laid off employees
-                as AI continues to streamline job functions, particularly in
-                areas such as IT maintenance and repetitive coding."
+                "universities are recognizing the necessity of AI education and
+                reshaping curricula accordingly"
               </a>
-              This observation highlights the reality that while AI automates
-              certain processes, it also forces the industry to evolve, with job
-              descriptions shifting and new skills becoming critical. By
-              handling routine tasks, AI enhances productivity and enables
-              developers to prioritize creativity, system design, and
-              optimization.
+              (Shein). This shift ensures that graduates possess relevant skills
+              in AI application, automation, and ethical considerations. As AI
+              technology evolves, educational institutions are focusing on
+              equipping students with the ability to work alongside AI rather
+              than be displaced by it.
             </p>
           </article>
         </section>
@@ -44,8 +45,8 @@ function EducationBody() {
         <section className="section" id="about">
           <div className="section-title">
             <h2>
-              Are AI Adoption Rates
-              <span>Slower Than Expected?</span>
+              Will AI Literacy Become Essential
+              <span>for Future Software Engineers?</span>
             </h2>
           </div>
 
@@ -59,29 +60,28 @@ function EducationBody() {
             </div>
             <article className="about-info">
               <h3>
-                AI’s integration into <span>the workforce</span>
+                AI’s integration into <span>the Software Engineering</span>
               </h3>
               <p>
-                Despite fears of widespread job loss due to automation, AI’s
-                integration into the workforce has been more gradual than many
-                anticipated. Kaushik Viswanath from MIT Sloan Management Review
-                notes that
+                The increasing role of AI in software engineering has sparked
+                debates about whether AI literacy should be an elective or a
+                core requirement. Kwan Kevin Tan, in an article for Business
+                Insider, reassures students that AI will not replace computer
+                science degrees but instead enhance them. He notes that
                 <a
-                  href="https://sloanreview.mit.edu/article/reality-check-generative-ais-impact-on-work/"
+                  href="https://www.businessinsider.com/relax-college-kids-ai-will-not-kill-computer-science-degree-2024-8"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  "automating bug detection and security testing, significantly
-                  reducing the time engineers spend on error resolution."
-                </a>{" "}
-                suggesting that the immediate impact on employment may be
-                overstated. He further observes that while certain sectors, like
-                video game development, are quick to adopt AI, other industries
-                such as enterprise software are more cautious. This uneven pace
-                of adoption means that many traditional roles remain intact, at
-                least for the time being, allowing companies to adjust their
-                workforce gradually rather than experiencing abrupt
-                displacement.
+                  "AI tools like GitHub Copilot are improving software
+                  engineers’ efficiency rather than rendering their skills
+                  obsolete"
+                </a>
+                (Tan). His findings suggest that AI literacy will become a
+                required skill, similar to how programming fundamentals are
+                essential today. Instead of making software engineers redundant,
+                AI is pushing for a shift in skill development, emphasizing
+                adaptability and problem-solving.
               </p>
             </article>
           </div>
@@ -90,41 +90,42 @@ function EducationBody() {
         <section className="section services" id="services">
           <div className="section-title">
             <h2>
-              How Can Software Engineers
-              <span> Adapt to AI’s Influence?</span>
+              How Are Industry Experts
+              <span> and Educators Responding?</span>
             </h2>
           </div>
           <article className="about-info">
             <h3>Will AI Replace Software Engineers?</h3>
             <p>
-              Rather than eliminating jobs, AI is fundamentally reshaping the
-              skills required for modern software engineers. Belle Lin
-              emphasizes that
+              Both industry leaders and educators agree that AI literacy is
+              becoming a crucial competency. Shein emphasizes that
               <a
-                href="https://sloanreview.mit.edu/article/reality-check-generative-ais-impact-on-work/"
+                href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source=chatgpt.com"
                 target="_blank"
+                https
                 rel="noopener noreferrer"
               >
-                "companies are not just cutting jobs; they are shifting
-                requirements, prioritizing engineers with high-level
-                problem-solving skills and expertise in AI integration."
+                "preparing students for an AI-integrated workforce requires a
+                balance of technical knowledge and ethical AI training,"
               </a>
-              In line with this, Viswanath highlights the adaptability of
-              younger workers, stating that{" "}
-              <a
-                href="https://www.wsj.com/articles/it-unemployment-rises-to-5-7-as-ai-hits-tech-jobs-7726bb1bhttps://www.forhttps://www.wsj.com/articles/it-unemployment-rises-to-5-7-as-ai-hits-tech-jobs-7726bb1bbes.com/sites/forbes-engineering/2023/12/07/ais-impact-in-its-first-year-in-software-engineering/?utm_source"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                "education and upskilling will be crucial for job security"
-              </a>
-              as the industry evolves. By embracing continuous learning and
-              integrating AI-driven tools into their workflows, engineers can
-              transition from routine coding tasks to more strategic roles
-              focused on innovation and system design. This collaborative
-              approach between AI and human expertise is set to drive the future
-              of software development, ensuring that technology empowers
-              engineers rather than replaces them.
+              highlighting the importance of responsible AI usage in real-world
+              applications (Shein). Similarly, Tan’s report indicates that
+              professors see AI as a tool that enhances learning, making
+              software development more accessible and efficient. As AI
+              continues to shape the job market, universities and industry
+              professionals are aligning efforts to ensure that future software
+              engineers are equipped with the skills necessary to navigate an
+              AI-powered landscape.
+            </p>
+            <h3>Conclusion</h3>
+            <p>
+              AI is not replacing computer science education; instead, it is
+              redefining it. The future of software engineering will require AI
+              literacy as an integral part of learning, ensuring that students
+              are prepared for a collaborative future with AI. Universities and
+              industry leaders are actively working to integrate AI-focused
+              education, reinforcing that AI is not a threat to aspiring
+              software engineers but a tool that will shape their careers.
             </p>
           </article>
         </section>

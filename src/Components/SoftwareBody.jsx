@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import "/src/Components/softwarebody.css";
 function SoftwareBody() {
   return (
     <>
