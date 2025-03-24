@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import "../index.css";
-import "../Components/investment.css";
+import "../Components/Investment.css";
 import "../Components/footer.css";
 import "../Components/navMain.css";
 
