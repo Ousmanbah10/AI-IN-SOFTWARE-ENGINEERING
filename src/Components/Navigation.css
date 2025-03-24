@@ -1,0 +1,228 @@
+/* ===== nav.css (Fixed) ===== */
+/* Variables */
+:root {
+  --clr-primary: #0056d2;
+  --clr-white: #ffffff;
+  --clr-overlay: rgba(255, 255, 255, 0.15);
+  --border-radius: 2rem;
+  --transition: all 0.3s ease;
+}
+
+/* Reset already handled in index.css */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* ===== Wrapper ===== */
+.nav-wrapper {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  overflow: visible;
+}
+
+/* ===== Background Image Container ===== */
+.nav-image-container {
+  position: relative;
+  width: 100%;
+  height: 75vh;
+  min-height: 650px; /* Minimum height to prevent cutting off */
+  overflow: visible; /* Allow content to overflow without cutting off */
+}
+
+.nav-background-image,
+.nav-background-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  filter: brightness(0.85);
+  -webkit-filter: brightness(0.85);
+}
+
+/* ===== Top Navigation ===== */
+.top-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 1.2rem 2rem;
+  z-index: 10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/* Logo styling */
+.logo.top-logo {
+  position: relative;
+}
+
+.logo.top-logo h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--clr-white);
+  margin: 0;
+}
+
+/* Navigation links */
+.top-nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style for list items */
+.top-nav-links li {
+  display: inline-block;
+  margin: 0;
+}
+
+/* Style each link like a rounded pill */
+.top-nav-links a {
+  padding: 0.6rem 1rem;
+  border: 1.75px solid var(--clr-white);
+  border-radius: var(--border-radius);
+  background-color: var(--clr-overlay);
+  color: var(--clr-white);
+  font-weight: 600;
+  -webkit-transition: var(--transition);
+  transition: var(--transition);
+  text-align: center;
+  font-size: 1.2rem;
+  white-space: nowrap;
+  display: block;
+}
+
+.top-nav-links a:hover {
+  background-color: var(--clr-white);
+  color: var(--clr-primary);
+}
+
+/* AI Headline styling */
+.ai-headline {
+  position: absolute;
+  top: 200px; /* Fixed position instead of percentage-based */
+  left: 2%;
+  width: 50%;
+  z-index: 2;
+  padding-top: 20px; /* Add some padding to prevent text being cut */
+  overflow: visible;
+}
+
+.ai-headline h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: var(--clr-white);
+  line-height: 1.1;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  text-align: left;
+  margin-top: 0;
+}
+
+.ai-headline h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  color: var(--clr-white);
+  margin-top: 0.5rem;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+
+/* Safari-specific fixes */
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance: none) {
+    .nav-image-container {
+      min-height: 700px; /* Even more height in Safari */
+    }
+
+    .ai-headline {
+      top: 220px; /* Position even lower in Safari */
+    }
+  }
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 768px) {
+  .top-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .top-nav-links {
+    width: 100%;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .top-nav-links a {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.75rem;
+  }
+
+  .ai-headline {
+    top: 150px; /* Fixed position for mobile */
+    width: 90%; /* Wider on mobile */
+  }
+
+  .ai-headline h1 {
+    font-size: 2.5rem;
+  }
+
+  .ai-headline h2 {
+    font-size: 1.3rem;
+  }
+  .ai-headline h6 {
+    font-size: 0.5rem;
+  }
+
+  .nav-image-container {
+    min-height: 550px; /* Ensure enough height on mobile */
+  }
+}
+
+/* Fix for IE */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .top-nav {
+    display: flex;
+  }
+
+  .top-nav-links {
+    display: flex;
+  }
+
+  .nav-image-container {
+    height: 600px;
+  }
+
+  .ai-headline {
+    top: 200px;
+  }
+}
