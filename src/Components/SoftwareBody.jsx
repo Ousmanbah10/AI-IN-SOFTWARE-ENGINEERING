@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "/src/Components/softwarebody.css";
+import aiImage from "../assets/AIINCS.jpeg";
 function SoftwareBody() {
   return (
     <>
@@ -50,7 +51,7 @@ function SoftwareBody() {
           <div className="section-center about-center">
             <div className="about-img">
               <img
-                src="./src/assets/AIINCS.jpeg"
+                src={aiImage}
                 className="about-photo"
                 alt="AI in Computer Science"
               />

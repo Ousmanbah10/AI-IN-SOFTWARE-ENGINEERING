@@ -1,6 +1,6 @@
 import { StrictMode } from "react";
 import App from "./App.jsx";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import "./Components/Navigation.css";
@@ -22,7 +22,7 @@ import Investment from "./pages/Investment.jsx";
 import References from "./pages/References.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/Software" element={<Software />} />
@@ -31,5 +31,5 @@ createRoot(document.getElementById("root")).render(
       <Route path="/Investment" element={<Investment />} />
       <Route path="/References" element={<References />} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );

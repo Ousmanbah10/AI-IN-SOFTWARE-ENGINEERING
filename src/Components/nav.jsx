@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-
+import bgvideo from "../assets/BGVIDEO.mp4";
 function Navigation() {
   return (
     <header className="nav-wrapper">
       <div className="nav-image-container">
         <video
-          src="./src/assets/BGVIDEO.mp4"
+          src={bgvideo}
           className="nav-background-video"
           autoPlay
           muted
