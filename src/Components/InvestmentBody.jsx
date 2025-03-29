@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "/src/Components/Investment.css";
-import aiImage from "../assets/AIPhoto4.png";
+import aiImage from "../assets/AIPhoto4.jpeg";
 
 function InvestmentBody() {
   return (

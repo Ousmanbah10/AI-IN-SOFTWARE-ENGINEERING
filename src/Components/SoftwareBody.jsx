@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "/src/Components/softwarebody.css";
 import aiImage from "../assets/AIINCS.jpeg";
-import aiImage2 from "../assets/AIPhoto2.png";
+import aiImage2 from "../assets/AIPhoto2.jpeg";
 
 function SoftwareBody() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import "/src/Components/education.css";
-import aiImage from "../assets/AIPhoto5.png";
+import aiImage from "../assets/AIPhoto5.jpeg";
 
 function EducationBody() {
   return (

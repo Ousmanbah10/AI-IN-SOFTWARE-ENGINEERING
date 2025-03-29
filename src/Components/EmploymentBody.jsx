@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "/src/Components/employmentbody.css";
-import aiImage from "../assets/AIPhoto7.png";
+import aiImage from "../assets/AIPhoto7.jpeg";
 
 function EmploymentBody() {
   return (

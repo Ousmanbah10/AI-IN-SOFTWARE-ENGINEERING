@@ -1,10 +1,9 @@
 import React from "react";
 import "./Body.css";
-import aiImage from "../assets/AIPhoto1.png";
+import aiImage from "../assets/AIPhoto1.jpeg";
 
 function Body() {
   return (
-    // Hey Ousman Bah
     <div className="container">
       <section className="section" id="section-buttom">
         <h2 className="title">
