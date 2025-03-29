@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import "/src/Components/softwarebody.css";
 import aiImage from "../assets/AIINCS.jpeg";
-import aiImage2 from "../assets/AIPhoto2.jpeg";
+import aiImagetwo from "../assets/AIPhoto2.jpeg";
 
 function SoftwareBody() {
   return (
@@ -70,19 +70,13 @@ function SoftwareBody() {
           </h2>
           <div className="content-paragraph">
             <p className="body-text">
-              AI is used for more than just writing code. According to{" "}
-              <a
-                href="https://ieeexplore.ieee.org/ielx7/2/9734242/09734243.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                research published in the IEEE Computer Society journal
-              </a>
-              , AI is involved across nearly every stage of the software
-              engineering lifecycle, including planning, design, testing, and
-              maintenance (IEEE Computer Society 2022). During project planning,
-              AI can aid development teams with task prioritization, identifying
-              areas of risk, and sprint planning. In regard to the design phase,{" "}
+              AI is used for more than just writing code. According to research
+              published in the IEEE Computer Society journal , AI is involved
+              across nearly every stage of the software engineering lifecycle,
+              including planning, design, testing, and maintenance (IEEE
+              Computer Society 2022). During project planning, AI can aid
+              development teams with task prioritization, identifying areas of
+              risk, and sprint planning. In regard to the design phase,{" "}
               <a
                 href="https://ieeexplore.ieee.org/ielx7/2/9734242/09734243.pdf"
                 target="_blank"
@@ -113,7 +107,7 @@ function SoftwareBody() {
             <img src={aiImage} alt="AI in Computer Science" className="image" />
 
             <img
-              src={aiImage2}
+              src={aiImagetwo}
               alt="AI in Computer Science"
               className="image"
             />

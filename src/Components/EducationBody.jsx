@@ -80,7 +80,7 @@ function EducationBody() {
                 reassure students that AI will enhance rather than replace
                 computer science degrees, as reported in
                 <a href="https://www.businessinsider.com/relax-college-kids-ai-will-not-kill-computer-science-degree-2024-8">
-                  Business Insider
+                  -Business Insider
                 </a>
                 .
               </p>
@@ -147,36 +147,30 @@ function EducationBody() {
           <article className="education-info">
             <p>
               Industry leaders and educators agree that AI literacy is becoming
-              crucial.
+              crucial. Beena Ammanath from Deloitte states,
               <a href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source">
-                Beena Ammanath
-              </a>{" "}
-              from
-              <a href="https://www2.deloitte.com/us/en/pages/consulting/topics/artificial-intelligence.html">
-                Deloitte
-              </a>{" "}
-              states, "You still need the foundation to be effective computer
-              scientists and software engineers," emphasizing understanding of
-              software principles, data management, and security. Universities
-              are rethinking how to incorporate AI tools into teaching.
-              <a href="https://www.cmu.edu/ai/">
-                Carnegie Mellon University
-              </a>{" "}
-              is "embracing the technology" by requiring students to use it to
-              learn about the technology itself. Programs are introducing
-              specializations in data science, machine learning, and user
-              experience.
-              <a href="https://www.ri.cmu.edu/ri-faculty/reid-simmons/">
-                Reid Gordon Simmons
-              </a>{" "}
-              from Carnegie Mellon notes, "AI won't take away jobs but will
-              change the nature of jobs." Software engineers will likely focus
-              more on requirements and specifications rather than coding. "I
-              firmly believe AI cannot be fully autonomous... there's always
-              going to be humans and machines working together and the machine
-              is augmenting the human's capabilities." This collaboration is
-              creating new specialization opportunities within computer science
-              education.
+                "You still need the foundation to be effective computer
+                scientists and software engineers,"
+              </a>
+              emphasizing understanding of software principles, data management,
+              and security. Universities are rethinking how to incorporate AI
+              tools into teaching. Carnegie Mellon University is
+              <a href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source">
+                "embracing the technology"
+              </a>
+              by requiring students to use it to learn about the technology
+              itself. Programs are introducing specializations in data science,
+              machine learning, and user experience. Reid Gordon Simmons from
+              Carnegie Mellon notes,
+              <a href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source">
+                "AI won't take away jobs but will change the nature of jobs."
+              </a>
+              Software engineers will likely focus more on requirements and
+              specifications rather than coding. "I firmly believe AI cannot be
+              fully autonomous... there's always going to be humans and machines
+              working together and the machine is augmenting the human's
+              capabilities." This collaboration is creating new specialization
+              opportunities within computer science education.
             </p>
           </article>
         </section>
