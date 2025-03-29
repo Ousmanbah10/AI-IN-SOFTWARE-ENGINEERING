@@ -4,6 +4,7 @@ import aiImage from "../assets/AIPhoto1.png";
 
 function Body() {
   return (
+    // Hey Ousman Bah
     <div className="container">
       <section className="section" id="section-buttom">
         <h2 className="title">
