@@ -17,7 +17,6 @@ function Software() {
   return (
     <>
       <NavigationMain />
-
       <SoftwareBody />
       <Footer />
     </>

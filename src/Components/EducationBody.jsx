@@ -1,132 +1,182 @@
-import { Link } from "react-router-dom";
+import React from "react";
 import "/src/Components/education.css";
-import aiImage from "../assets/AIINCS.jpeg";
+import aiImage from "../assets/AIPhoto5.png";
+
 function EducationBody() {
   return (
     <>
-      <div className="home-container">
-        <section className="section services" id="services">
-          <div className="ai-headlinee">
+      <div className="education-container">
+        <section className="education-section" id="education-intro">
+          <div className="education-headline">
             <p>
-              AI’s Influence on Computer Science Education and Skills
+              AI's Influence on Computer Science Education and Skills
               Development
             </p>
           </div>
-          <div className="section-title">
+
+          <div className="education-question">
+            <p>
+              How are universities adapting their curricula to prepare students
+              for an AI-driven future?
+            </p>
+          </div>
+
+          <div className="education-title">
             <h2>
               How Is AI Reshaping
               <span> Computer Science Education?</span>
             </h2>
           </div>
-          <article className="about-info">
+
+          <article className="education-info">
             <p>
-              Artificial Intelligence is transforming the way computer science
-              is taught, with universities adapting curricula to incorporate AI
-              literacy. Esther Shein highlights how institutions are integrating
-              AI courses to prepare students for an AI-driven workforce, stating
-              that
-              <a
-                href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source=chatgpt.com"
-                target="_blank"
-                https
-                rel="noopener noreferrer"
-              >
-                "universities are recognizing the necessity of AI education and
-                reshaping curricula accordingly"
+              Artificial Intelligence is transforming how computer science is
+              taught. Universities are adapting curricula to incorporate AI
+              literacy as it becomes integrated into most job sectors, according
+              to research from the{" "}
+              <a href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source">
+                Communications of the ACM
               </a>
-              (Shein). This shift ensures that graduates possess relevant skills
-              in AI application, automation, and ethical considerations. As AI
-              technology evolves, educational institutions are focusing on
-              equipping students with the ability to work alongside AI rather
-              than be displaced by it.
+              . Computer science professors emphasize that earning a degree
+              remains valuable in the age of AI. As Kan Min Yen from the
+              National University of Singapore notes in the{" "}
+              <a href="https://www.businessinsider.com/relax-college-kids-ai-will-not-kill-computer-science-degree-2024-8">
+                Business Insider
+              </a>{" "}
+              article, "The AI wave is actually driving demand for computing
+              professionals in general, because maturing AI is transformative
+              and needs to be integrated into many facets of life." While AI
+              tools increasingly assist with coding, foundational knowledge of
+              computer science principles, problem-solving methodologies, and
+              system design remains crucial. Educational institutions are
+              preparing students for environments where tools like GitHub
+              Copilot and ChatGPT are standard.
             </p>
           </article>
         </section>
 
-        <section className="section" id="about">
-          <div className="section-title">
+        <section className="education-section" id="education-literacy">
+          <div className="education-title">
             <h2>
               Will AI Literacy Become Essential
-              <span>for Future Software Engineers?</span>
+              <span> for Future Software Engineers?</span>
             </h2>
           </div>
 
-          <div className="section-center about-center">
-            <div className="about-img">
+          <div className="literacy-container">
+            <div className="literacy-image-side">
               <img
                 src={aiImage}
-                className="about-photo"
+                className="literacy-image"
                 alt="AI in Computer Science"
               />
+              <div className="literacy-caption">Future Skills</div>
             </div>
-            <article className="about-info">
-              <h3>
-                AI’s integration into <span>the Software Engineering</span>
-              </h3>
-              <p>
-                The increasing role of AI in software engineering has sparked
-                debates about whether AI literacy should be an elective or a
-                core requirement. Kwan Kevin Tan, in an article for Business
-                Insider, reassures students that AI will not replace computer
-                science degrees but instead enhance them. He notes that
-                <a
-                  href="https://www.businessinsider.com/relax-college-kids-ai-will-not-kill-computer-science-degree-2024-8"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  "AI tools like GitHub Copilot are improving software
-                  engineers’ efficiency rather than rendering their skills
-                  obsolete"
+
+            <div className="literacy-content-side">
+              <p className="literacy-text">
+                The role of AI in software engineering has sparked debates about
+                whether AI literacy should be a core requirement. Professors
+                reassure students that AI will enhance rather than replace
+                computer science degrees, as reported in
+                <a href="https://www.businessinsider.com/relax-college-kids-ai-will-not-kill-computer-science-degree-2024-8">
+                  Business Insider
                 </a>
-                (Tan). His findings suggest that AI literacy will become a
-                required skill, similar to how programming fundamentals are
-                essential today. Instead of making software engineers redundant,
-                AI is pushing for a shift in skill development, emphasizing
-                adaptability and problem-solving.
+                .
               </p>
-            </article>
+
+              <div className="literacy-quote">
+                "AI tools like GitHub Copilot are improving software engineers'
+                efficiency rather than rendering their skills obsolete"
+                <span className="quote-source">— Kwan Kevin Tan</span>
+              </div>
+
+              <p className="literacy-text">
+                An MIT experiment divided students into three groups to solve a
+                programming task using ChatGPT, Code Llama, or just Google. The
+                ChatGPT group finished first but later "remembered nothing, and
+                they all failed" when tested on understanding. The Google group,
+                who had to struggle through solutions, all passed, demonstrating
+                that learning requires effort.
+              </p>
+
+              <p className="literacy-text">
+                Despite AI's code generation capabilities, educators emphasize
+                that computer science teaches problem-solving approaches, not
+                just coding. AI is shifting skill development toward
+                adaptability and critical thinking.
+              </p>
+            </div>
+          </div>
+
+          <div className="edu-stats-container">
+            <div className="edu-stat-card">
+              <div className="edu-stat-value">90%</div>
+              <div className="edu-stat-label">
+                of jobs will be disrupted by generative AI according to
+                Cognizant study cited in
+                <a href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source">
+                  Communications of the ACM
+                </a>
+              </div>
+            </div>
+            <div className="edu-stat-card">
+              <div className="edu-stat-value">60%</div>
+              <div className="edu-stat-label">
+                of jobs in advanced economies are being impacted by AI according
+                to IMF analysis
+              </div>
+            </div>
+            <div className="edu-stat-card">
+              <div className="edu-stat-value">23%</div>
+              <div className="edu-stat-label">
+                of wages linked to vision-related tasks could be
+                cost-effectively replaced by AI
+              </div>
+            </div>
           </div>
         </section>
 
-        <section className="section services" id="services">
-          <div className="section-title">
+        <section className="education-section" id="education-response">
+          <div className="education-title">
             <h2>
               How Are Industry Experts
               <span> and Educators Responding?</span>
             </h2>
           </div>
-          <article className="about-info">
-            <h3>Will AI Replace Software Engineers?</h3>
+          <article className="education-info">
             <p>
-              Both industry leaders and educators agree that AI literacy is
-              becoming a crucial competency. Shein emphasizes that
-              <a
-                href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source=chatgpt.com"
-                target="_blank"
-                https
-                rel="noopener noreferrer"
-              >
-                "preparing students for an AI-integrated workforce requires a
-                balance of technical knowledge and ethical AI training,"
-              </a>
-              highlighting the importance of responsible AI usage in real-world
-              applications (Shein). Similarly, Tan’s report indicates that
-              professors see AI as a tool that enhances learning, making
-              software development more accessible and efficient. As AI
-              continues to shape the job market, universities and industry
-              professionals are aligning efforts to ensure that future software
-              engineers are equipped with the skills necessary to navigate an
-              AI-powered landscape.
-            </p>
-            <h3>Conclusion</h3>
-            <p>
-              AI is not replacing computer science education; instead, it is
-              redefining it. The future of software engineering will require AI
-              literacy as an integral part of learning, ensuring that students
-              are prepared for a collaborative future with AI. Universities and
-              industry leaders are actively working to integrate AI-focused
-              education, reinforcing that AI is not a threat to aspiring
-              software engineers but a tool that will shape their careers.
+              Industry leaders and educators agree that AI literacy is becoming
+              crucial.
+              <a href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source">
+                Beena Ammanath
+              </a>{" "}
+              from
+              <a href="https://www2.deloitte.com/us/en/pages/consulting/topics/artificial-intelligence.html">
+                Deloitte
+              </a>{" "}
+              states, "You still need the foundation to be effective computer
+              scientists and software engineers," emphasizing understanding of
+              software principles, data management, and security. Universities
+              are rethinking how to incorporate AI tools into teaching.
+              <a href="https://www.cmu.edu/ai/">
+                Carnegie Mellon University
+              </a>{" "}
+              is "embracing the technology" by requiring students to use it to
+              learn about the technology itself. Programs are introducing
+              specializations in data science, machine learning, and user
+              experience.
+              <a href="https://www.ri.cmu.edu/ri-faculty/reid-simmons/">
+                Reid Gordon Simmons
+              </a>{" "}
+              from Carnegie Mellon notes, "AI won't take away jobs but will
+              change the nature of jobs." Software engineers will likely focus
+              more on requirements and specifications rather than coding. "I
+              firmly believe AI cannot be fully autonomous... there's always
+              going to be humans and machines working together and the machine
+              is augmenting the human's capabilities." This collaboration is
+              creating new specialization opportunities within computer science
+              education.
             </p>
           </article>
         </section>

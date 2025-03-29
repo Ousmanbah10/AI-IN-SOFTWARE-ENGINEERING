@@ -1,95 +1,54 @@
+import React from "react";
+import "./Body.css";
+import aiImage from "../assets/AIPhoto1.png";
+
 function Body() {
   return (
-    <>
-      <div className="home-container">
-        <section className="section services" id="services">
-          <div className="section-title">
-            <h2>
-              What is AI and Why
-              <span> Does It Matter?</span>
-            </h2>
-          </div>
-          <article className="about-info">
-            <p>
-              Artificial Intelligence (AI) refers to the development of computer
-              systems capable of performing tasks that traditionally require
-              human intelligence, such as problem-solving, pattern recognition,
-              and decision-making. In recent years, AI has advanced rapidly,
-              becoming an essential tool in industries like healthcare, finance,
-              and, most notably, software engineering. With AI-powered tools
-              becoming more integrated into coding and development processes,
-              there is an ongoing debate about whether AI will enhance or
-              replace human engineers.
-            </p>
-            <p>
-              Understanding its role in software engineering will help
-              professionals navigate the evolving landscape and ensure they
-              remain valuable in an increasingly AI-driven world.
-            </p>
-          </article>
-        </section>
+    <div className="container">
+      <section className="section" id="section-buttom">
+        <h2 className="title">
+          Will Artificial Intelligence Replace Software Engineers in the
+          Technology Industry?
+        </h2>
 
-        <section className="section" id="about">
-          <div className="section-title">
-            <h2>
-              More About <span>Artificial Intelligence</span>
-            </h2>
-          </div>
+        <div className="content-paragraph">
+          <p className="body-text">
+            In the last few years, the introduction of Artificial Intelligence
+            (AI) has not only emerged as a tool, but as a revolutionary force in
+            the world of technology. From assisting in automating repetitive
+            coding tasks to being utilized in creating large-scale systems, AI
+            is increasingly getting integrated into software engineering. Some
+            welcome this new trend as an age of greater efficiency and
+            innovation, while others worry it's the start of the end for the
+            conventional software engineer. Yet as the technology improves and
+            becomes ever more pervasive, we're confronted with a difficult and
+            urgent question: Will AI to take the place of software engineers in
+            the tech sector?
+          </p>
+          <p className="body-text">
+            The response is not as straightforward as a yes or no. It takes a
+            close, analytical examination of AI's role in coding, its promise in
+            the real world, the future and present needs of the job market for
+            software, and the uniquely human abilities that machines have yet to
+            replicate. As a prospective computer science major who hopes to join
+            this rapidly changing field, this research is aimed at helping
+            current and future computer science students, recent graduates, and
+            educators understand how AI is reshaping software engineering. By
+            exploring both the potential and the limits of AI in software
+            engineering, this site attempts to discern how software engineers of
+            the future will succeed in a field where humans and computers are
+            collaborating with one another and why the job of the software
+            engineer is anything but obsolete.
+          </p>
+        </div>
+      </section>
 
-          <div className="section-center about-center">
-            <div className="about-img">
-              <img
-                src="./src/assets/AIINCS.jpeg"
-                className="about-photo"
-                alt="AI in Computer Science"
-              />
-            </div>
-            <article className="about-info">
-              <h3>
-                Why Am I Conducting <span>This Research?</span>
-              </h3>
-              <p>
-                As a computer science student, understanding AI’s impact on the
-                future of software engineering is critical for planning my
-                career. AI is changing the way software is developed,
-                introducing both opportunities and challenges. While some fear
-                AI might replace software engineers, others argue it will
-                enhance their productivity and create new roles. My goal is to
-                analyze these perspectives, evaluate the changes in industry
-                demand, and identify the essential skills that will keep
-                software engineers competitive in an AI-driven job market.
-              </p>
-            </article>
-          </div>
-        </section>
-
-        <section className="section services" id="services">
-          <div className="section-title">
-            <h2>
-              The Bigger Picture: AI’s Influence
-              <span> on Education and Industry</span>
-            </h2>
-          </div>
-          <article className="about-info">
-            <h3>Preparing for the AI Revolution</h3>
-            <p>
-              This research is also important on a broader scale, as
-              universities and companies must prepare for the AI revolution. By
-              staying up to date, I aim to contribute to discussions about how
-              computer science students and working professionals can adapt to
-              this new era. AI can be leveraged for innovation rather than seen
-              as a threat—it is shaping the future of technology and the
-              workforce.
-            </p>
-            <p>
-              Understanding its role in software engineering will help
-              professionals navigate the evolving landscape and ensure they
-              remain valuable in an increasingly AI-driven world.
-            </p>
-          </article>
-        </section>
-      </div>
-    </>
+      <section className="section">
+        <div className="image-container">
+          <img src={aiImage} alt="AI in Computer Science" className="image" />
+        </div>
+      </section>
+    </div>
   );
 }
 
