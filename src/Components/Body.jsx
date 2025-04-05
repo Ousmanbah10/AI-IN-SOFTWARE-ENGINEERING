@@ -51,6 +51,21 @@ function Body() {
             becomes critical.
           </p>
           <p className="body-text">
+            One example proves the point: I used AI to generate{" "}
+            <a
+              href="https://vocal-wisp-4cb7f8.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              this website
+            </a>{" "}
+            , after I gave it all the content I used to build this page and the
+            result clearly lacks thoughtful design, structure, and visual
+            appeal. Without human input, even the most advanced tools fall
+            short. This reinforces the idea that AI can assist—but not
+            replace—skilled engineers and designers.
+          </p>
+          <p className="body-text">
             Research from McKinsey & Company indicates that generative AI could
             automate up to{" "}
             <a
