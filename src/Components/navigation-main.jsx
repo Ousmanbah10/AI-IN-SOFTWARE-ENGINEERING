@@ -15,17 +15,15 @@ function NavigationMain() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/Software">Software Engineering</Link>
+            <Link to="/Education">AI In CS Edu and Skills Dev</Link>
           </li>
           <li>
-            <Link to="/Employment">Employment & Job Security</Link>
+            <Link to="/Software">AI In Software Engineering</Link>
           </li>
           <li>
-            <Link to="/Education">CS Edu and Skills Dev</Link>
+            <Link to="/Employment">AI In Employment & Job Security</Link>
           </li>
-          <li>
-            <Link to="/Investment">Monetary Investment</Link>
-          </li>
+
           <li>
             <Link to="/References">References</Link>
           </li>

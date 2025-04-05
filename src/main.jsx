@@ -19,7 +19,7 @@ import Software from "./pages/Software.jsx";
 import Employment from "./pages/Employment.jsx";
 import Education from "./pages/Education.jsx";
 import Investment from "./pages/Investment.jsx";
-import References from "./pages/References.jsx";
+import Reference from "./pages/Reference.jsx";
 
 createRoot(document.getElementById("root")).render(
   <HashRouter>
@@ -29,7 +29,7 @@ createRoot(document.getElementById("root")).render(
       <Route path="/Employment" element={<Employment />} />
       <Route path="/Education" element={<Education />} />
       <Route path="/Investment" element={<Investment />} />
-      <Route path="/References" element={<References />} />
+      <Route path="/References" element={<Reference />} />
     </Routes>
   </HashRouter>
 );

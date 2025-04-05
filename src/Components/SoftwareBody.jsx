@@ -8,104 +8,127 @@ function SoftwareBody() {
     <>
       <div className="container">
         <section className="sections">
-          <h2 className="title">SOFTWARE ENGINEERING</h2>
+          <h2 className="title">AI's IMPACT ON SOFTWARE ENGINEERING</h2>
 
           <div className="content-paragraph">
             <p className="mini-question">
-              When evaluating whether AI should replace software engineers, a
-              closer look at how AI is actually enhancing software development
-              makes the answer clear: It Will Not.
+              When evaluating whether AI should replace software engineers, This
+              is a close look at how AI is actually enhancing software
+              development.
             </p>
           </div>
-          <h2 className="title">
-            How is AI changing the way code gets written?
-          </h2>
+
           <div className="content-paragraph">
             <p className="body-text">
-              Artificial intelligence has increasingly become a standard tool in
-              software development. Rather than replacing human engineers, it is
-              designed to enhance their workflow by reducing repetitive tasks
-              and improving code precision. Developers report that tools like
+              Artificial intelligence is rapidly changing how software is
+              developed, maintained, and tested. Across classrooms and industry,
+              AI is no longer a futuristic concept. It is a practical tool that
+              developers use daily. From automating repetitive tasks to
+              detecting bugs before they reach production, AI tools are
+              streamlining workflows and improving software quality. GitHub's
+              CEO Thomas Dohmke highlighted the moment they discovered GPT-3's
+              potential, saying it was{" "}
               <a
-                href="https://github.com/features/copilot"
+                href="https://www.wsj.com/articles/how-did-companies-use-generative-ai-in-2023-heres-a-look-at-five-early-adopters-6e09c6b3"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {" "}
-                GitHub Copilot
+                "so good at writing code"
               </a>{" "}
-              and{" "}
+              that it inspired the creation of GitHub Copilot showing how
+              quickly AI tools are becoming essential for real-world
+              development, especially for professionals working in fast-paced
+              environments. This product now serves more than{" "}
               <a
-                href="https://aws.amazon.com/codewhisperer/"
+                href="https://news.fintech.io/post/102jhfk/ai-powered-coding-pulls-in-almost-1b-of-funding-to-claim-killer-app-status"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Amazon Code Whisperer
+                one million paying users
               </a>{" "}
-              help them concentrate on complex problem-solving by handling
-              routine coding suggestions.
+              across thousands of companies, including Microsoft and Amazon,
+              offering suggestions as developers type and completing boilerplate
+              code in seconds. As of April 2024,{" "}
               <a
-                href="https://www.forbes.com/sites/forbes-engineering/2023/12/07/ais-impact-in-its-first-year-in-software-engineering/?utm_source"
+                href="https://news.fintech.io/post/102jhfk/ai-powered-coding-pulls-in-almost-1b-of-funding-to-claim-killer-app-status"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {" "}
-                "AI in this space has been most effective when it acts as a
-                partner…not a replacement…for developers"
+                GitHub’s revenue had grown by 45% year over year,
               </a>{" "}
-              (Forbes 2023). These tools function by generating code suggestions
-              based on prompts entered by the developer, but they still rely
-              heavily on human judgment, contextual understanding, and
-              validation. While AI can save time on syntax writing, it is the
-              developer who must make decisions regarding logic, structure, and
-              intent. Engineers continue to lead the decision-making process and
-              remain responsible for ensuring quality and meeting project goals
-              (Forbes 2023).
+              with Copilot responsible for over 40% of that growth.This level of
+              growth highlights how AI is becoming a foundational part of modern
+              software development.
             </p>
           </div>
         </section>
         <section className="sections">
-          <h2 className="title">
-            How is AI supporting the workflow on software engineering?
-          </h2>
           <div className="content-paragraph">
             <p className="body-text">
-              AI is used for more than just writing code. According to research
-              published in the IEEE Computer Society journal , AI is involved
-              across nearly every stage of the software engineering lifecycle,
-              including planning, design, testing, and maintenance (IEEE
-              Computer Society 2022). During project planning, AI can aid
-              development teams with task prioritization, identifying areas of
-              risk, and sprint planning. In regard to the design phase,{" "}
+              AI tools are becoming especially valuable during the early phases
+              of development. Developers can describe what they want in plain
+              language, and Copilot will generate the code needed to get
+              started. As noted in an{" "}
               <a
-                href="https://ieeexplore.ieee.org/ielx7/2/9734242/09734243.pdf"
+                href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9734243"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                "AI can identify and recognize design patterns in software
-                through source code and user interface layouts"
-              </a>{" "}
-              (IEEE Computer Society 2022). AI has also made testing and
-              debugging much easier through automation.{" "}
+                IEEE research report
+              </a>
+              , AI still relies on human input to guide structure and intent.
+              The report explains that "humans still{" "}
               <a
-                href="https://ieeexplore.ieee.org/ielx7/2/9734242/09734243.pdf"
+                href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9734243"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                "AI tools can automatically find and repair bugs in code"
+                make the key decisions about what the software
               </a>{" "}
-              by recognizing recurring code patterns based on patterns in
-              previous builds and test results (IEEE Computer Society 2022).
-              These functions streamline the development cycle, offering
-              real-time feedback and reducing the need for repetitive manual
-              corrections.
+              should do and how it should behave," underscoring the importance
+              of strong conceptual understanding. For students and junior
+              engineers, this means that while AI can help with syntax and
+              speed, critical thinking and design logic remain core skills.
+            </p>
+
+            <p className="body-text">
+              AI is also reshaping software testing and debugging-fixing wrong
+              code. Modern systems use AI to recognize patterns from{" "}
+              <a
+                href="https://www.computer.org/csdl/magazine/so/2024/06/10705649/20LUIFN90m4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                previous builds and automatically flag errors
+              </a>
+              . As one AWS blog post describes, these tools can "
+              <a
+                href="https://dev.to/aws/ai-assisted-software-development-lifecycle-289k?utm_source"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                identify and repair buggy code
+              </a>
+              " before it's even committed to version control where it is
+              tested. Code Intelligence, a cybersecurity company that
+              specializes in automating software security testing, has developed
+              systems that combine AI with{" "}
+              <a
+                href="https://www.code-intelligence.com/blog/ai-testing-tools?utm_source"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                dynamic fuzz testing
+              </a>
+              , allowing software to be stress-tested in unpredictable ways.
+              These approaches are already improving code reliability and
+              reducing costs for large-scale engineering teams.
             </p>
           </div>
         </section>
         <section className="sections">
           <div className="software-img">
             <img src={aiImage} alt="AI in Computer Science" className="image" />
-
             <img
               src={aiImagetwo}
               alt="AI in Computer Science"
@@ -113,39 +136,36 @@ function SoftwareBody() {
             />
           </div>
         </section>
-
-        <h2 className="title">Why are software engineers still necessary? </h2>
-
-        <div className="content-paragraph">
-          <p className="body-text">
-            Though artificial intelligence aids the development process, it will
-            never substitute for engineers. These tools are not creative, do not
-            have contextual knowledge, nor can they make ethical choices with
-            sound judgment. As Forbes is noted to say,{" "}
-            <a
-              href="https://www.forbes.com/sites/forbes-engineering/2023/12/07/ais-impact-in-its-first-year-in-software-engineering/?utm_source"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              "The models cannot build applications from scratch, nor can they
-              operate without a software engineer's input"
-            </a>{" "}
-            (Forbes 2023) Evidence confirms this difference, presenting
-            artificial intelligence at its most useful within a development
-            framework incorporating human supervision and deliberate planning.
-            Mashkoor stress that{" "}
-            <a
-              href="https://ieeexplore.ieee.org/ielx7/2/9734242/09734243.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              "the judgment, experience, and decision-making capabilities of
-              human engineers"
-            </a>{" "}
-            are still vital for guiding and interpreting AI suggestions (IEEE
-            Computer Society 2022).
-          </p>
-        </div>
+        <section className="sections">
+          <div className="content-paragraph">
+            <p className="body-text">
+              In large organizations, AI is also playing a growing role in
+              project management and design. According to a Communication of ACM
+              report, "AI can support developers by organizing knowledge across
+              teams and even{" "}
+              <a
+                href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                recognizing recurring design patterns
+              </a>{" "}
+              in codebases". This kind of pattern recognition is helping
+              software architects avoid redundant work and spot inefficiencies
+              earlier in the process. For professionals managing complex
+              systems, it means faster turnaround and fewer bugs reaching
+              production. Whether working in testing, development, or systems
+              design, today's engineers are learning how to integrate AI into
+              their workflows without losing sight of their role. For computer
+              science students and recent graduates, this means becoming fluent
+              not just in programming languages, but in how to collaborate with
+              intelligent tools. As AI continues to evolve, the most effective
+              engineers will be those who can combine speed and scale with
+              strategy and understanding.
+            </p>
+          </div>
+        </section>
+        e{" "}
       </div>
     </>
   );

@@ -40,6 +40,11 @@ body {
   background-color: white;
 }
 
+#section-buttom {
+  margin-top: 2rem; /* Added more space at the top */
+  padding-top: 1rem; /* Additional padding at the top */
+}
+
 #section-main {
   margin-top: 2rem;
 }
@@ -60,10 +65,11 @@ body {
 /* Typography */
 .title {
   font-family: var(--font-title);
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: var(--color-blue);
   margin-bottom: 1.5rem;
   text-align: center;
+  margin-top: 1rem; /* Added space above the title */
 }
 
 .subtitle {
@@ -76,6 +82,7 @@ body {
 
 .content-paragraph {
   margin-bottom: 1.5rem;
+  margin-top: 2rem; /* Added space above content */
 }
 
 .body-text {
@@ -108,7 +115,7 @@ body {
   }
 
   .title {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
   }
 
   .subtitle {
@@ -130,7 +137,7 @@ body {
   }
 
   .title {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .subtitle {

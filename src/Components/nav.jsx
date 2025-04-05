@@ -23,30 +23,27 @@ function Navigation() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/Software">Software Engineering</Link>
+              <Link to="/Education">AI In CS Edu and Skills Dev</Link>
             </li>
             <li>
-              <Link to="/Employment">Employment & Job Security</Link>
+              <Link to="/Software">AI In Software Engineering</Link>
             </li>
             <li>
-              <Link to="/Education">CS Edu and Skills Dev</Link>
+              <Link to="/Employment">AI In Employment & Job Security</Link>
             </li>
-            <li>
-              <Link to="/Investment">Monetary Investment</Link>
-            </li>
+
             <li>
               <Link to="/References">References</Link>
             </li>
           </ul>
         </div>
         <div className="ai-headline">
-          <h1>ARTIFICIAL INTELLIGENCE</h1>
+          <h1>Beyond the Code</h1>
           <h2>
-            Understanding AI and <br />
-            Its Role in Software Engineering
-            <br />
-            <h6>By Ousman Bah</h6>
+            What Every Computer Science Student and Tech Professional Should
+            Know About AI’s Role in Software Engineering
           </h2>
+          <h2>By Ousman Bah</h2>
         </div>
       </div>
     </header>

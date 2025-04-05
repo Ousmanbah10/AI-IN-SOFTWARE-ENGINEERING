@@ -8,10 +8,7 @@ function EducationBody() {
       <div className="education-container">
         <section className="education-section" id="education-intro">
           <div className="education-headline">
-            <p>
-              AI's Influence on Computer Science Education and Skills
-              Development
-            </p>
+            <p>AI's Influence on Computer Science Education</p>
           </div>
 
           <div className="education-question">
@@ -21,48 +18,38 @@ function EducationBody() {
             </p>
           </div>
 
-          <div className="education-title">
-            <h2>
-              How Is AI Reshaping
-              <span> Computer Science Education?</span>
-            </h2>
-          </div>
-
           <article className="education-info">
             <p>
-              Artificial Intelligence is transforming how computer science is
-              taught. Universities are adapting curricula to incorporate AI
-              literacy as it becomes integrated into most job sectors, according
-              to research from the{" "}
-              <a href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source">
-                Communications of the ACM
-              </a>
-              . Computer science professors emphasize that earning a degree
-              remains valuable in the age of AI. As Kan Min Yen from the
-              National University of Singapore notes in the{" "}
-              <a href="https://www.businessinsider.com/relax-college-kids-ai-will-not-kill-computer-science-degree-2024-8">
-                Business Insider
+              As artificial intelligence continues to reshape the tech industry,
+              its influence is becoming especially clear in computer science
+              classrooms.{" "}
+              <a
+                href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                AI is no longer just a topic to study,
               </a>{" "}
-              article, "The AI wave is actually driving demand for computing
-              professionals in general, because maturing AI is transformative
-              and needs to be integrated into many facets of life." While AI
-              tools increasingly assist with coding, foundational knowledge of
-              computer science principles, problem-solving methodologies, and
-              system design remains crucial. Educational institutions are
-              preparing students for environments where tools like GitHub
-              Copilot and ChatGPT are standard.
+              It is changing how instructors teach, how students learn, and how
+              future engineers are prepared. For computer science students and
+              recent graduates, this shift affects what skills they will need to
+              succeed in AI-integrated workplaces. As a professor from the
+              National University of Singapore notes, the growing use of AI is
+              already{" "}
+              <a
+                href="https://www.businessinsider.com/relax-college-kids-ai-will-not-kill-computer-science-degree-2024-8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                "driving demand for computing professionals"
+              </a>{" "}
+              across fields, making AI literacy a competitive edge, not an
+              optional skill.
             </p>
           </article>
         </section>
 
         <section className="education-section" id="education-literacy">
-          <div className="education-title">
-            <h2>
-              Will AI Literacy Become Essential
-              <span> for Future Software Engineers?</span>
-            </h2>
-          </div>
-
           <div className="literacy-container">
             <div className="literacy-image-side">
               <img
@@ -70,107 +57,136 @@ function EducationBody() {
                 className="literacy-image"
                 alt="AI in Computer Science"
               />
-              <div className="literacy-caption">Future Skills</div>
             </div>
 
             <div className="literacy-content-side">
               <p className="literacy-text">
-                The role of AI in software engineering has sparked debates about
-                whether AI literacy should be a core requirement. Professors
-                reassure students that AI will enhance rather than replace
-                computer science degrees, as reported in
-                <a href="https://www.businessinsider.com/relax-college-kids-ai-will-not-kill-computer-science-degree-2024-8">
-                  -Business Insider
-                </a>
-                .
+                At the same time, educators are facing the challenge of
+                balancing AI tool adoption with meaningful learning. In a recent
+                study done by{" "}
+                <a
+                  href="https://news.slashdot.org/story/24/09/07/2148218/mit-cs-professor-tests-ais-impact-on-educating-programmers?utm_source"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  MIT,
+                </a>{" "}
+                students using ChatGPT completed tasks faster, but they
+                remembered nothing, and they all failed the follow-up test. The
+                students who solved the problems without AI passed, showing
+                stronger understanding. Professor Eric Klopfer, who led the
+                study, explained that{" "}
+                <a
+                  href="https://news.slashdot.org/story/24/09/07/2148218/mit-cs-professor-tests-ais-impact-on-educating-programmers?utm_source"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  "working hard and struggling"
+                </a>{" "}
+                is a crucial part of the learning process. For educators and
+                institutions, this highlights the need to rethink how AI tools
+                are used. They should support learning, not replace it.
               </p>
-
-              <div className="literacy-quote">
-                "AI tools like GitHub Copilot are improving software engineers'
-                efficiency rather than rendering their skills obsolete"
-                <span className="quote-source">— Kwan Kevin Tan</span>
-              </div>
 
               <p className="literacy-text">
-                An MIT experiment divided students into three groups to solve a
-                programming task using ChatGPT, Code Llama, or just Google. The
-                ChatGPT group finished first but later "remembered nothing, and
-                they all failed" when tested on understanding. The Google group,
-                who had to struggle through solutions, all passed, demonstrating
-                that learning requires effort.
-              </p>
-
-              <p className="literacy-text">
-                Despite AI's code generation capabilities, educators emphasize
-                that computer science teaches problem-solving approaches, not
-                just coding. AI is shifting skill development toward
-                adaptability and critical thinking.
-              </p>
-            </div>
-          </div>
-
-          <div className="edu-stats-container">
-            <div className="edu-stat-card">
-              <div className="edu-stat-value">90%</div>
-              <div className="edu-stat-label">
-                of jobs will be disrupted by generative AI according to
-                Cognizant study cited in
-                <a href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source">
-                  Communications of the ACM
+                Some universities are already adapting. At{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source"
+                >
+                  Carnegie Mellon University
                 </a>
-              </div>
-            </div>
-            <div className="edu-stat-card">
-              <div className="edu-stat-value">60%</div>
-              <div className="edu-stat-label">
-                of jobs in advanced economies are being impacted by AI according
-                to IMF analysis
-              </div>
-            </div>
-            <div className="edu-stat-card">
-              <div className="edu-stat-value">23%</div>
-              <div className="edu-stat-label">
-                of wages linked to vision-related tasks could be
-                cost-effectively replaced by AI
-              </div>
+                , students are asked to use AI tools like ChatGPT or Copilot to
+                explore how these systems work, rather than to complete
+                assignments for them. This strategy will help future engineers
+                develop critical thinking and responsible tech habits, skills
+                that will be expected by employers. Julie York, a curriculum
+                specialist with the Computer Science Teachers Association,
+                stresses that digital literacy should start early, arguing that
+                "{" "}
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://news.slashdot.org/story/24/09/07/2148218/mit-cs-professor-tests-ais-impact-on-educating-programmers?utm_source"
+                >
+                  if second graders can learn about safety
+                </a>{" "}
+                in a crosswalk, they can learn about safety online". These
+                perspectives show how AI education is expanding from
+                universities into K–12 environments, preparing future students
+                earlier than ever.
+              </p>
             </div>
           </div>
         </section>
 
         <section className="education-section" id="education-response">
-          <div className="education-title">
-            <h2>
-              How Are Industry Experts
-              <span> and Educators Responding?</span>
-            </h2>
-          </div>
           <article className="education-info">
             <p>
-              Industry leaders and educators agree that AI literacy is becoming
-              crucial. Beena Ammanath from Deloitte states,
-              <a href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source">
-                "You still need the foundation to be effective computer
-                scientists and software engineers,"
+              As tools like GitHub Copilot become{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://www.forbes.com/sites/forbes-engineering/2023/12/07/ais-impact-in-its-first-year-in-software-engineering/?utm_source"
+              >
+                common in real-world development teams,
+              </a>{" "}
+              educators are reaffirming the importance of foundational computer
+              science knowledge.{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source"
+              >
+                Beena Ammanath
               </a>
-              emphasizing understanding of software principles, data management,
-              and security. Universities are rethinking how to incorporate AI
-              tools into teaching. Carnegie Mellon University is
-              <a href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source">
-                "embracing the technology"
+              , executive director at Deloitte's Global AI Institute, puts it
+              simply. Students "still need the foundation to be effective
+              computer scientists and software engineers." In classrooms and
+              bootcamps also, there is a push to strengthen understanding of
+              algorithms, data structures, and system design. While AI can
+              generate code, it still takes a human to know whether that code is
+              correct, efficient, or even ethical.
+            </p>
+
+            <p>
+              Universities are also developing new programs and concentrations
+              tailored to the AI era. Topics like prompt engineering, machine
+              learning ethics, and responsible AI development{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source"
+              >
+                are being introduced to equip students
+              </a>{" "}
+              with the knowledge they will need in tomorrow's jobs. These
+              changes matter not just for students entering the field, but also
+              for professionals looking to stay relevant. As one professor from
+              Carnegie Mellon explains,{" "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source"
+              >
+                "AI cannot be fully autonomous"
               </a>
-              by requiring students to use it to learn about the technology
-              itself. Programs are introducing specializations in data science,
-              machine learning, and user experience. Reid Gordon Simmons from
-              Carnegie Mellon notes,
-              <a href="https://cacm.acm.org/news/the-impact-of-ai-on-computer-science-education/?utm_source">
-                "AI won't take away jobs but will change the nature of jobs."
-              </a>
-              Software engineers will likely focus more on requirements and
-              specifications rather than coding. "I firmly believe AI cannot be
-              fully autonomous... there's always going to be humans and machines
-              working together and the machine is augmenting the human's
-              capabilities." This collaboration is creating new specialization
-              opportunities within computer science education.
+              . Humans will continue to guide these systems, making decisions
+              that require judgment, creativity, and ethical reflection.
+            </p>
+
+            <p>
+              This shift is pushing schools to prioritize skills that AI cannot
+              easily replicate. Creativity, ethical reasoning, and communication
+              are becoming just as important as coding ability, especially for
+              future developers expected to collaborate with AI systems in team
+              environments. For students, that means learning to approach
+              problems from multiple angles, not just follow patterns. For
+              educators, it means building courses that prepare students for
+              jobs that do not exist yet. And for professionals, it means
+              continuous learning will be essential as AI tools become standard
+              in software teams across industries.
             </p>
           </article>
         </section>

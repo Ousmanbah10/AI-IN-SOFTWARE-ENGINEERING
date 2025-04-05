@@ -19,24 +19,20 @@ function Footer() {
               Home
             </Link>
           </li>
+
+          <li>
+            <Link to="/Education" className="footer-link">
+              AI In CS Edu and Skills Dev
+            </Link>
+          </li>
           <li>
             <Link to="/Software" className="footer-link">
-              Software Engineering
+              AI In Software Engineering
             </Link>
           </li>
           <li>
             <Link to="/Employment" className="footer-link">
-              Employment & Job Security
-            </Link>
-          </li>
-          <li>
-            <Link to="/Education" className="footer-link">
-              CS Edu and Skills Dev
-            </Link>
-          </li>
-          <li>
-            <Link to="/Investment" className="footer-link">
-              Monetary Investment
+              AI In Employment & Job Security
             </Link>
           </li>
           <li>
