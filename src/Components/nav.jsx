@@ -43,7 +43,7 @@ function Navigation() {
             What Every Computer Science Student and Tech Professional Should
             Know About AI’s Role in Software Engineering
           </h2>
-          <h2>By Ousman Bah</h2>
+          <h3>By Ousman Bah</h3>
         </div>
       </div>
     </header>
